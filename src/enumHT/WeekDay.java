@@ -12,6 +12,6 @@ public enum WeekDay {
         for (WeekDay day : WeekDay.values()) {
             if(day.dayIndex == dayIndex) return day;
         }
-            throw new IllegalArgumentException("You entered wrong day!");
+            throw new IllegalArgumentException("You entered wrong day! ");
     }
 }
