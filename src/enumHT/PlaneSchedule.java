@@ -12,6 +12,5 @@ public class PlaneSchedule extends ConsoleProgram {
         int day = readInt("Enter number of the day of the week: \n");
         WeekDay requestedDay = WeekDay.getDay(day);
       println(requestedDay);
-
     }
 }
